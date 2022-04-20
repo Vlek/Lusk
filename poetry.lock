@@ -632,11 +632,11 @@ diagrams = ["railroad-diagrams", "jinja2"]
 
 [[package]]
 name = "pytest"
-version = "6.2.5"
+version = "7.1.1"
 description = "pytest: simple powerful testing with Python"
 category = "dev"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.7"
 
 [package.dependencies]
 atomicwrites = {version = ">=1.0", markers = "sys_platform == \"win32\""}
@@ -647,10 +647,10 @@ iniconfig = "*"
 packaging = "*"
 pluggy = ">=0.12,<2.0"
 py = ">=1.8.2"
-toml = "*"
+tomli = ">=1.0.0"
 
 [package.extras]
-testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "requests", "xmlschema"]
+testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "pygments (>=2.7.2)", "requests", "xmlschema"]
 
 [[package]]
 name = "pytz"
@@ -681,14 +681,14 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "reorder-python-imports"
-version = "2.8.0"
+version = "3.0.1"
 description = "Tool for reordering python imports"
 category = "dev"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
-"aspy.refactor-imports" = ">=2.3.0,<3"
+"aspy.refactor-imports" = ">=2.3.0"
 
 [[package]]
 name = "requests"
@@ -1058,7 +1058,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "a52ad0dac2dae72df56a2d2f8710837f25a1947e0e8807720fc3534c95cbb6d5"
+content-hash = "90f3d05bddbc242eee502c1bca9177fa8b633d46ed3e0d01ede2dff5955a797b"
 
 [metadata.files]
 alabaster = [
@@ -1460,8 +1460,8 @@ pyparsing = [
     {file = "pyparsing-3.0.8.tar.gz", hash = "sha256:7bf433498c016c4314268d95df76c81b842a4cb2b276fa3312cfb1e1d85f6954"},
 ]
 pytest = [
-    {file = "pytest-6.2.5-py3-none-any.whl", hash = "sha256:7310f8d27bc79ced999e760ca304d69f6ba6c6649c0b60fb0e04a4a77cacc134"},
-    {file = "pytest-6.2.5.tar.gz", hash = "sha256:131b36680866a76e6781d13f101efb86cf674ebb9762eb70d3082b6f29889e89"},
+    {file = "pytest-7.1.1-py3-none-any.whl", hash = "sha256:92f723789a8fdd7180b6b06483874feca4c48a5c76968e03bb3e7f806a1869ea"},
+    {file = "pytest-7.1.1.tar.gz", hash = "sha256:841132caef6b1ad17a9afde46dc4f6cfa59a05f9555aae5151f73bdf2820ca63"},
 ]
 pytz = [
     {file = "pytz-2022.1-py2.py3-none-any.whl", hash = "sha256:e68985985296d9a66a881eb3193b0906246245294a881e7c8afe623866ac6a5c"},
@@ -1507,8 +1507,8 @@ pyyaml = [
     {file = "PyYAML-6.0.tar.gz", hash = "sha256:68fb519c14306fec9720a2a5b45bc9f0c8d1b9c72adf45c37baedfcd949c35a2"},
 ]
 reorder-python-imports = [
-    {file = "reorder_python_imports-2.8.0-py2.py3-none-any.whl", hash = "sha256:03354608c610a25cba75a352ad86552849dcf3c90849fcb415298efc911a4ecf"},
-    {file = "reorder_python_imports-2.8.0.tar.gz", hash = "sha256:435af2a6feb39de3c4b7a415079f85b4b0052d3a7ed9ea7b269b0aff725abdaf"},
+    {file = "reorder_python_imports-3.0.1-py2.py3-none-any.whl", hash = "sha256:4a87d5ffdd5f34b29040fd8c9dae375b5f74ade9f5ec7b15cbcc3dc6a3117855"},
+    {file = "reorder_python_imports-3.0.1.tar.gz", hash = "sha256:a4e1c28a1bf90a7c8fa4c534058803a7956adc722137d3e54eb91536fe12ffb6"},
 ]
 requests = [
     {file = "requests-2.27.1-py2.py3-none-any.whl", hash = "sha256:f22fa1e554c9ddfd16e6e41ac79759e17be9e492b3587efa038054674760e72d"},
