@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "orcs"
-version = "0.0.0"
+version = "0.0.1"
 description = "Orcs"
 authors = ["Derek McCammond <derekmccammond@protonmail.com>"]
 license = "GPL-3.0"
