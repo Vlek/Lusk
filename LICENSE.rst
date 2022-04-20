@@ -1,4 +1,4 @@
-Orcs
+Lusk
 Copyright (C) 2022  Derek McCammond
 
 This program is free software: you can redistribute it and/or modify

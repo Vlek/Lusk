@@ -1,19 +1,19 @@
 [tool.poetry]
-name = "orcs"
+name = "lusk"
 version = "0.0.1"
-description = "Orcs"
+description = "Lusk"
 authors = ["Derek McCammond <derekmccammond@protonmail.com>"]
 license = "GPL-3.0"
 readme = "README.rst"
-homepage = "https://github.com/vlek/orcs"
-repository = "https://github.com/vlek/orcs"
-documentation = "https://orcs.readthedocs.io"
+homepage = "https://github.com/vlek/lusk"
+repository = "https://github.com/vlek/lusk"
+documentation = "https://lusk.readthedocs.io"
 classifiers = [
     "Development Status :: 1 - Planning",
 ]
 
 [tool.poetry.urls]
-Changelog = "https://github.com/vlek/orcs/releases"
+Changelog = "https://github.com/vlek/lusk/releases"
 
 [tool.poetry.dependencies]
 python = "^3.7"
@@ -46,7 +46,7 @@ pyupgrade = "^2.29.1"
 furo = ">=2021.11.12"
 
 [tool.poetry.scripts]
-orcs = "orcs.__main__:main"
+lusk = "lusk.__main__:main"
 
 [tool.coverage.paths]
 source = ["src", "*/site-packages"]
@@ -54,7 +54,7 @@ tests = ["tests", "*/tests"]
 
 [tool.coverage.run]
 branch = true
-source = ["orcs", "tests"]
+source = ["lusk", "tests"]
 
 [tool.coverage.report]
 show_missing = true

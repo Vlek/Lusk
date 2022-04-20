@@ -2,7 +2,7 @@
 import pytest
 from click.testing import CliRunner
 
-from orcs import __main__
+from lusk import __main__
 
 
 @pytest.fixture

@@ -3,10 +3,10 @@
   "author": "Derek McCammond",
   "development_status": "Development Status :: 1 - Planning",
   "email": "derekmccammond@protonmail.com",
-  "friendly_name": "Orcs",
+  "friendly_name": "Lusk",
   "github_user": "vlek",
   "license": "GPL-3.0",
-  "package_name": "orcs",
-  "project_name": "orcs",
+  "package_name": "lusk",
+  "project_name": "lusk",
   "version": "0.0.0"
 }
