@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "lusk"
-version = "0.0.1"
+version = "0.0.2"
 description = "Lusk"
 authors = ["Derek McCammond <derekmccammond@protonmail.com>"]
 license = "GPL-3.0"
