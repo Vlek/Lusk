@@ -15,7 +15,7 @@ import pygame
 class EventHandler:
     """Handles events that happen within the game context."""
 
-    def handle_event(self, event) -> None:
+    def handle_event(self, event: pygame.Event) -> None:
         """Takes an individual event object and handles accordingly.
 
         Currently this is just going through a glorified switch statement

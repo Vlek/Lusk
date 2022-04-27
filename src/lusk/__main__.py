@@ -8,9 +8,7 @@ from lusk import lusk
 @click.version_option()
 def main() -> None:
     """Lusk."""
-    game = lusk()
-
-    print(game)
+    lusk()
 
 
 if __name__ == "__main__":
