@@ -1,15 +1,17 @@
 """Command-line interface."""
 import click
 
-from lusk import lusk
+from lusk import Lusk
 
 
 @click.command()
 @click.version_option()
 def main() -> None:
     """Lusk."""
-    lusk()
+    game: Lusk = Lusk("")
+
+    game.play()
 
 
 if __name__ == "__main__":
-    main(prog_name="lusk")  # pragma: no cover
+    main()  # pragma: no cover
