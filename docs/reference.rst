@@ -2,8 +2,8 @@ Reference
 =========
 
 
-orcs
+Lusk
 ----
 
-.. automodule:: orcs
+.. automodule:: lusk
    :members:
