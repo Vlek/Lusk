@@ -4,9 +4,9 @@
 class Map:
     """Holds map information and returns map info."""
 
-    def __init__(self, map_info: list[int]) -> None:
+    def __init__(self, tiles: list[list[int]]) -> None:
         """Instantiate a map object."""
-        self.info = map_info
+        self.tiles = tiles
 
-        if self.info is None:
-            self.info = []
+        if self.tiles is None:
+            self.tiles = []
