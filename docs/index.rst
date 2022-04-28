@@ -13,4 +13,4 @@
    contributing
    Code of Conduct <codeofconduct>
    License <license>
-   Changelog <https://github.com/vlek/orcs/releases>
+   Changelog <https://github.com/vlek/lusk/releases>
