@@ -468,7 +468,6 @@ python-versions = ">=3.6"
 [package.dependencies]
 mypy-extensions = ">=0.4.3"
 tomli = {version = ">=1.1.0", markers = "python_version < \"3.11\""}
-typed-ast = {version = ">=1.4.0,<2", markers = "python_version < \"3.8\""}
 typing-extensions = ">=3.10"
 
 [package.extras]
@@ -710,7 +709,7 @@ python-versions = "*"
 
 [[package]]
 name = "pyupgrade"
-version = "2.32.0"
+version = "2.37.2"
 description = "A tool to automatically upgrade syntax for newer versions."
 category = "dev"
 optional = false
@@ -1105,7 +1104,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "342d8eae7df54b8cfafafa9e0b652dbacd82fe47f620adfd7030b03893d9d6cd"
+content-hash = "4cf561cbfe11062c1235671b263834cf6d046023404f55931ed92fb436318d28"
 
 [metadata.files]
 alabaster = [
@@ -1531,8 +1530,8 @@ pytz = [
     {file = "pytz-2022.1.tar.gz", hash = "sha256:1e760e2fe6a8163bc0b3d9a19c4f84342afa0a2affebfaa84b01b978a02ecaa7"},
 ]
 pyupgrade = [
-    {file = "pyupgrade-2.32.0-py2.py3-none-any.whl", hash = "sha256:f45d4afb6ccdf7b0cea757958d0a11306324052668d9ff99d2bcb06bda46c00d"},
-    {file = "pyupgrade-2.32.0.tar.gz", hash = "sha256:6878116d364b72f0c0011dd62dfe96425041a5f753da298b6eacde0f9fd9c004"},
+    {file = "pyupgrade-2.37.2-py2.py3-none-any.whl", hash = "sha256:5394cd5b1a8e1e4973c98ed2725449492dd2f2a285079c7b62ebaf06095bfce7"},
+    {file = "pyupgrade-2.37.2.tar.gz", hash = "sha256:137d7e624d94e998092d8aa4e0e701e9a6101b2d8b4ee469c41b617a6f98b1d1"},
 ]
 pyyaml = [
     {file = "PyYAML-6.0-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:d4db7c7aef085872ef65a8fd7d6d09a14ae91f691dec3e87ee5ee0539d516f53"},
